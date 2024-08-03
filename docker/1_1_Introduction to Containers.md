@@ -1,0 +1,76 @@
+# Introduction to Containers
+
+Welcome to “Introduction to Containers.” After watching this video, you will be able to 
+
+- identify the traditional computing issues for software development, 
+- define a container and describe its characteristics, and 
+- list container benefits and challenges, and popular container vendors. 
+
+## Digital transformation and containers
+
+Cloud-native is the newest application development approach for building scalable, dynamic, hybrid cloud-friendly software. And container technology is a powerful part of that approach. Let’s check out the analogy of a shipping container. The modern shipping industry standardized a set of container sizes, so no matter what item is shipped, the container size remains the same. Standardization significantly improves shipping efficiency. Logistics staff select container transport options such as ships, planes, trains, and trucks, based on the container’s size and the client’s delivery needs. Digital container technology is similar. Containers solve the problem of making software portable so that applications can run on multiple platforms. 
+
+A container, powered by the containerization engine, is a standard unit of software that encapsulates(封装) the application code, runtime, system tools, system libraries, and settings necessary for programmers to build, ship, and run applications efficiently. Operations and underlying infrastructure issues are no longer blockers. You can quickly move applications from your laptop to a testing environment, from a staging environment to a production environment, from a physical machine to a virtual machine, or a private cloud or public cloud, and always know that your application will work correctly. 
+
+A container can be small, just tens of megabytes, and developers can almost instantly start containerized applications. With these capabilities, containers serve as the foundation for today’s development and deployment solutions standards. 
+
+## Why use containers?
+
+Let’s examine some of the development and deployment challenges organizations encounter with traditional computing environments. 
+
+- In traditional environments, developers **can’t isolate the app** and **allocate or designate** specific storage and memory resources for apps on physical servers. 
+- Servers are often **underutilized**(未充分利用) or **overutilized**(过度利用), leading to poor utilization and a poor return on investment. 
+- Traditional deployments require **comprehensive** **provisioning**(供应) resources and expensive **maintenance costs**. 
+- The limits of physical servers can constrain **application performance** during peak workloads. 
+- Applications are **not portable** across multiple environments and operating systems. 
+- Implementing hardware for **resiliency** is often time-consuming, complex and expensive. 
+- Traditional on premises IT environments have limited **scalability**, and 
+- Finally, **automation** is challenging when distributing software to multiple platforms and resources using traditional environments. 
+
+## Container Characteristics
+
+Containers enable organizations to overcome these challenges. 
+
+- *Container engines* virtualize the operating system and are responsible for running containers. 
+- Platform-independent containers are **lightweight, fast, isolated, portable, and secure** and often require **less memory space**. 
+- Binaries, libraries, and other entities within the container **enable** apps to run, and 
+- one machine can **host multiple containers**. 
+
+Containers help programmers quickly deploy code into applications. Containers are **platform-independent** and can run on the cloud, desktop, and on-premises. Containers being **operating system-independent**, run on Windows, Linux, or Mac OS. Containers are also **programming language and IDE independent**—whether you are running Python, Node, Java, or other languages. 
+
+## Benefits and Challenges
+
+Containers enable organizations to: 
+
+- Quickly create applications using automation. 
+- Lower deployment time and costs. 
+- Improve resource utilization, including CPU and memory. 
+- Port across different environments, and 
+- support next-gen applications, including microservices. 
+
+Using containerization is not without its challenges. 
+
+- Server security can become an issue if its operating system is affected. 
+- Developers can become overwhelmed when managing thousands of containers. 
+- Converting monolithic(庞大的) legacy applications can be a complex process, and 
+- Developers can experience difficulty right-sizing(精简) containers for specific scenarios. 
+
+## Container vendors
+
+Next, let’s learn about some of the more popular container vendors. 
+
+- *Docker* is a robust platform and the most popular container platform today. 
+- *Podman* is a daemon-less(无守护进程) container engine that is more secure than *Docker*. 
+- Developers often prefer *LXC* for data-intensive applications and operations. And, 
+- *Vagrant* offers the highest levels of isolation on the running physical machine. 
+
+## Recap
+
+In this video, you learned that: 
+
+- Organizations are moving to containers to overcome challenges around isolation, utilization, provisioning, performance, and more. 
+- A container is a standard unit of software that encapsulates everything needed to build, ship, and run applications. 
+- Containers are operating system, programming language, and platform-independent. 
+- They lower deployment time and costs, improve utilization, automate processes, and support next-gen applications (microservices). 
+- Developers may find that management, legacy project migration, and right-sizing are significant challenges. 
+- And finally, major container vendors include Docker, Podman, LXC, and Vagrant. 
